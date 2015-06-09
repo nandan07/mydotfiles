@@ -1,0 +1,42 @@
+[global_config]
+  tab_position = right
+  handle_size = 2
+  focus = mouse
+[keybindings]
+  resize_left = <Primary><Shift>a
+  zoom_in = <Primary>equal
+  go_up = <Primary>w
+  zoom_out = <Primary>minus
+  resize_up = <Primary><Shift>w
+  close_window = <Primary><Shift><Alt>w
+  split_horiz = <Primary><Shift>r
+  go_down = <Primary>s
+  close_term = <Primary>q
+  split_vert = <Primary><Shift>e
+  go_right = <Primary><Alt>d
+  go_left = <Primary>a
+  resize_right = <Primary><Shift>d
+  resize_down = <Primary><Shift>s
+  toggle_scrollbar = <Primary><Shift><Alt>s
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#264ad2:#d33682:#2aa198:#eee8d5:#002b36:#ff1400:#25dd1b:#39ffbe:#10b6ff:#6c71c4:#ca4ff0:#fdf6e3"
+    background_image = None
+    use_system_font = False
+    cursor_color = "#7b8e8c"
+    foreground_color = "#b0eef6"
+    show_titlebar = False
+    font = Monospace 12
+    background_color = "#2d2d2d"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
