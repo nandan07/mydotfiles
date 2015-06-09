@@ -50,6 +50,8 @@ noremap ;; A;
 inoremap jj <Esc>
 inoremap ww <Esc>:w!<CR>
 inoremap wq <Esc>:wq!<CR>
+noremap wq :wq!<CR>
+noremap qq :q!<CR>
 inoremap qq <Esc>:q!<CR>
 inoremap // <Esc>I//
 inoremap pp <Esc>I##
