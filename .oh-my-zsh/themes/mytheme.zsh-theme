@@ -6,7 +6,7 @@ $(_user_host)${_current_dir} $(git_prompt_info) $(_ruby_version)
 
 PROMPT2='%{$fg[grey]%}◀%{$reset_color%} '
 
-RPROMPT='$(_vi_status)%{$(echotc UP 1)%}$fg[cyan] $(date +"%b-%d %I:%M %p") $reset_color  $(git_prompt_status) ${_return_status}%{$(echotc DO 1)%}'
+RPROMPT='$(_vi_status)%{$(echotc UP 1)%} $(date +"%b-%d %I:%M %p")  $(git_prompt_status) ${_return_status}%{$(echotc DO 1)%}'
 
 local _current_dir="%{$fg[white]%}%3~%{$reset_color%} "
 local _return_status="%{$fg[red]%}%(?..⍉)%{$reset_color%}"
