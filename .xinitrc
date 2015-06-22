@@ -1,4 +1,4 @@
-#!/bin/sh
+#!bin/sh
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
@@ -38,7 +38,5 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 exec gnome-session
-syncthing
-sudo chmod 777 /sys/class/backlight/intel_backlight/brightness
-sudo mount /dev/sda2 /mnt/data 
-sudo mount /dev/sda5 /mnt/files
+redshift -l 19.13:72.6 -t 3600:3600 -g 0.8 -m randr -v -o -b .8
+

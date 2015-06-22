@@ -55,7 +55,6 @@ noremap qq :q!<CR>
 inoremap qq <Esc>:q!<CR>
 inoremap // <Esc>I//
 inoremap pp <Esc>I##
-inoremap cc <Esc><Home>i<Del><Del>
 noremap <F3> :NextColorScheme<CR>
 noremap <F2> :PrevColorScheme<CR>
 noremap <CR> i

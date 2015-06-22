@@ -78,6 +78,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias  adj="redshift -l 19.13:72.6 -t 3500:3000 -g 0.8 -m randr -v -o -b .6"
 alias  mp3="youtube-dl --audio-format mp3  --audio-quality 0  --extract-audio "
 alias bb="sudo chmod 777  /sys/class/backlight/intel_backlight/brightness"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
