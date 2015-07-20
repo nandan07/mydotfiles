@@ -47,14 +47,13 @@ colorscheme 256-grayvim
 set t_Co=256                                                                    " set 256 colors in vim
 inoremap ;; <Esc>A;
 noremap ;; A;
-inoremap jj <Esc>
+inoremap <C-L> <Esc>
 inoremap ww <Esc>:w!<CR>
 inoremap wq <Esc>:wq!<CR>
 noremap wq :wq!<CR>
 noremap qq :q!<CR>
 inoremap qq <Esc>:q!<CR>
 inoremap // <Esc>I//
-inoremap pp <Esc>I##
 noremap <F3> :NextColorScheme<CR>
 noremap <F2> :PrevColorScheme<CR>
 noremap <CR> i
