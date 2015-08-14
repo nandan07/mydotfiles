@@ -1,4 +1,4 @@
-# Path to your oh-my-zsh installation.
+#git  Path to your oh-my-zsh installation.
 export ZSH=/home/nandan/.oh-my-zsh
 
 # Set name of the theme to load.
@@ -45,7 +45,7 @@ ZSH_THEME="mytheme"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(sudo battery cp git z pygmentize colorize cp archlinux)
+plugins=(sudo battery cp git z pygmentize colorize cp archlinux zsh-syntax-highlighting)
 
 # User configuration
 
@@ -53,7 +53,7 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
-
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting-master/zsh-syntax-highlighting.zsh
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -82,7 +82,8 @@ alias  adj="redshift -l 19.13:72.6 -t 3500:3000 -g 0.8 -m randr -v -o -b .6"
 alias  mp3="youtube-dl --audio-format mp3  --audio-quality 0  --extract-audio "
 alias gc="git commit -am"
 alias gpl="git pull"
-alias gph="git push"
+alias gch="git checkout"
+alias gp="git push"
 alias o="xdg-open"
 alias bb="sudo chmod 777  /sys/class/backlight/intel_backlight/brightness"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
