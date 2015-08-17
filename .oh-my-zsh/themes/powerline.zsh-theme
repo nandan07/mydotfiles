@@ -124,7 +124,7 @@ if [ "$POWERLINE_DETECT_SSH" != "" ]; then
   fi
 fi
 PROMPT="%k%f%F{white}%K{blue} "$POWERLINE_CURRENT_PATH"%F{blue}"$POWERLINE_GIT_INFO_LEFT" %k"$'\ue0b0'"%f  
-▶"
+$fg[green]▶ "
 
 if [ "$POWERLINE_NO_BLANK_LINE" = "" ]; then
     PROMPT="
