@@ -26,7 +26,7 @@
     scrollbar_position = hidden
     palette = "#073642:#dc322f:#859900:#b58900:#264ad2:#d33682:#2aa198:#eee8d5:#002b36:#ff1400:#a850c6:#39ffbe:#10b6ff:#6c71c4:#ca4ff0:#fdf6e3"
     background_image = None
-    background_darkness = 0.97
+    background_darkness = 0.96
     background_type = transparent
     use_system_font = False
     cursor_color = "#7b8e8c"
