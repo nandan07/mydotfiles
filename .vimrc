@@ -52,6 +52,8 @@ inoremap ww <Esc>:w!<CR>
 inoremap wq <Esc>:wq!<CR>
 noremap wq :wq!<CR>
 noremap qq :q!<CR>
+
+nnoremap <C-J> <C-W><C-J>
 inoremap qq <Esc>:q!<CR>
 inoremap // <Esc>I//
 noremap <F3> :NextColorScheme<CR>
