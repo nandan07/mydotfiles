@@ -38,6 +38,7 @@ Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-colorscheme-switcher'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdcommenter'
 
 
 call vundle#end()            " required
@@ -45,8 +46,6 @@ filetype plugin indent on    " required
 
 colorscheme 256-grayvim
 set t_Co=256                                                                    " set 256 colors in vim
-inoremap ;; <Esc>A;
-noremap ;; A;
 inoremap <C-L> <Esc>
 inoremap ww <Esc>:w!<CR>
 inoremap wq <Esc>:wq!<CR>
@@ -55,7 +54,6 @@ noremap qq :q!<CR>
 
 nnoremap <C-J> <C-W><C-J>
 inoremap qq <Esc>:q!<CR>
-inoremap // <Esc>I//
 noremap <F3> :NextColorScheme<CR>
 noremap <F2> :PrevColorScheme<CR>
 noremap <CR> i
