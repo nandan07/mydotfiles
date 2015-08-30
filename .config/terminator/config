@@ -34,7 +34,7 @@
     foreground_color = "#b0eef6"
     show_titlebar = False
     cursor_shape = ibeam
-    font = Inconsolata-g for Powerline Medium 12
+    font = Inconsolata-g for Powerline Medium 13
     background_color = "#1c2026"
     scrollback_infinite = True
 [layouts]
