@@ -93,6 +93,7 @@ alias sl="screen -list|tail -n +2 | head -n -2|cut -f2"
 alias s="screen -r"
 alias st="screen -S mtp"
 alias o="xdg-open"
+alias g="g++ -g"
 
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"

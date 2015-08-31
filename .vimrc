@@ -46,7 +46,7 @@ filetype plugin indent on    " required
 
 colorscheme 256-grayvim
 set t_Co=256                                                                    " set 256 colors in vim
-inoremap <C-L> <Esc>
+inoremap jj <Esc>
 inoremap ww <Esc>:w!<CR>
 inoremap wq <Esc>:wq!<CR>
 noremap wq :wq!<CR>
