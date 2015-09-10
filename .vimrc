@@ -2,6 +2,14 @@ set nocompatible              " be iMproved, required
 syntax on
 filetype on
 
+set mouse=a
+set wildmenu
+set wildmode=list:full 
+set wildignore=*.swp,*.bak,*.pyc,*.class
+set wildignorecase 
+set spell spelllang=en_us
+set noswapfile
+set showmatch 
 set hlsearch!
 set undofile
 set hlsearch
@@ -39,6 +47,17 @@ Plugin 'xolox/vim-colorscheme-switcher'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'Rip-Rip/clang_complete'
+Plugin 'vim-scripts/AutoComplPop'
+Plugin 'ervandew/supertab'
+Plugin 'Shougo/neocomplcache.vim'
+Plugin 'Mizuchi/STL-Syntax'
+
+
+
+
 
 
 call vundle#end()            " required
