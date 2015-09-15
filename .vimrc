@@ -44,7 +44,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-colorscheme-switcher'
-Plugin 'davidhalter/jedi-vim'
+"Plugin 'davidhalter/jedi-vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'jiangmiao/auto-pairs'
@@ -54,6 +54,7 @@ Plugin 'vim-scripts/AutoComplPop'
 Plugin 'ervandew/supertab'
 Plugin 'Shougo/neocomplcache.vim'
 Plugin 'Mizuchi/STL-Syntax'
+Plugin 'scrooloose/nerdtree'
 
 
 
@@ -67,13 +68,20 @@ colorscheme 256-grayvim
 set t_Co=256                                                                    " set 256 colors in vim
 inoremap jj <Esc>
 inoremap ww <Esc>:w!<CR>
-inoremap wq <Esc>:wq!<CR>
-noremap wq :wq!<CR>
+inoremap wq <Esc>:wq<CR>
+noremap wq :wq<CR>
 noremap qq :q!<CR>
 
-nnoremap <C-J> <C-W><C-J>
+"nnoremap <C-J> <C-W><C-J>
+nnoremap <silent> <C-e> <C-w><C-w>
+inoremap <silent> <C-e> <Esc><C-w><C-w>
+vnoremap <silent> <C-e> <Esc><C-w><C-w>
+
 inoremap qq <Esc>:q!<CR>
 noremap <F3> :NextColorScheme<CR>
 noremap <F2> :PrevColorScheme<CR>
+noremap <space> :NERDTreeToggle<CR>
 noremap <CR> i
+noremap <tab> gt
 nnoremap <F5> :set hlsearch!<CR>
+
