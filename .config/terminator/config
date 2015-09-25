@@ -13,6 +13,8 @@
   go_right = <Primary>f
   go_up = <Primary>w
   next_tab = <Primary><Shift>Tab
+  page_down_half = <Primary><Super>Down
+  page_up = <Primary><Shift><Super>Down
   resize_down = <Primary><Shift>s
   resize_left = <Primary><Shift>a
   resize_right = <Primary><Shift>d
@@ -34,10 +36,9 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#1c2026"
-    background_darkness = 0.89
+    background_color = "#2d383d"
+    background_darkness = 1.07
     background_image = None
-    background_type = transparent
     copy_on_selection = True
     cursor_color = "#9c9c9c"
     font = Inconsolata-g for Powerline Medium 11

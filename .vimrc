@@ -70,18 +70,19 @@ inoremap jj <Esc>
 inoremap ww <Esc>:w!<CR>
 inoremap wq <Esc>:wq<CR>
 noremap wq :wq<CR>
-noremap qq :q!<CR>
 
 "nnoremap <C-J> <C-W><C-J>
 nnoremap <silent> <C-e> <C-w><C-w>
 inoremap <silent> <C-e> <Esc><C-w><C-w>
 vnoremap <silent> <C-e> <Esc><C-w><C-w>
 
-inoremap qq <Esc>:q!<CR>
 noremap <F3> :NextColorScheme<CR>
 noremap <F2> :PrevColorScheme<CR>
 noremap <space> :NERDTreeToggle<CR>
 noremap <CR> i
+noremap ; :
+noremap Q :q<CR>
 noremap <tab> gt
 nnoremap <F5> :set hlsearch!<CR>
 
+" Tab navigation
