@@ -37,6 +37,13 @@ set gdefault
 set title
 set spell spelllang=en_us
 set nospell
+
+
+set incsearch " Show results simultaneously while typing a search command
+set spellfile=~/.nvim/spell/en.utf-8.add
+set spelllang=en
+
+
 filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -45,16 +52,20 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-colorscheme-switcher'
 "Plugin 'davidhalter/jedi-vim'
-Plugin 'scrooloose/syntastic'
+"Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'Rip-Rip/clang_complete'
-Plugin 'vim-scripts/AutoComplPop'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Rip-Rip/clang_complete'
+"Plugin 'vim-scripts/AutoComplPop'
 Plugin 'ervandew/supertab'
-Plugin 'Shougo/neocomplcache.vim'
+"Plugin 'Shougo/neocomplcache.vim'
 Plugin 'Mizuchi/STL-Syntax'
 Plugin 'scrooloose/nerdtree'
+"Plugin 'powerman/vim-plugin-viewdoc'
+"Plugin 'tpope/vim-surround' "csXX, dsX, ysMX, yssX
+Plugin 'unblevable/quick-scope' " ftFT highlighting
+"Plugin 'bling/vim-airline'
 
 
 
@@ -70,6 +81,7 @@ inoremap jj <Esc>
 inoremap ww <Esc>:w!<CR>
 inoremap wq <Esc>:wq<CR>
 noremap wq :wq<CR>
+noremap ww :w<CR>
 
 "nnoremap <C-J> <C-W><C-J>
 nnoremap <silent> <C-e> <C-w><C-w>

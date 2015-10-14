@@ -1,4 +1,5 @@
 [global_config]
+  enabled_plugins = TestPlugin, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   focus = mouse
   handle_size = 2
   inactive_color_offset = 0.67
@@ -6,7 +7,7 @@
 [keybindings]
   broadcast_all = <Primary><Alt>a
   broadcast_off = <Primary><Alt>s
-  close_term = <Primary>q
+  close_term = <Primary><Shift>q
   close_window = <Primary><Shift><Alt>w
   go_down = <Primary>s
   go_left = <Primary>a
@@ -36,6 +37,7 @@
 [plugins]
 [profiles]
   [[default]]
+    audible_bell = True
     background_color = "#2d383d"
     background_darkness = 1.07
     background_image = None
@@ -43,7 +45,7 @@
     cursor_color = "#9c9c9c"
     font = Inconsolata-g for Powerline Medium 11
     foreground_color = "#b0eef6"
-    palette = "#073642:#dc322f:#859900:#b58900:#264ad2:#d33682:#2aa198:#eee8d5:#002b36:#ff1400:#a850c6:#39ffbe:#10b6ff:#6c71c4:#ca4ff0:#fdf6e3"
+    palette = "#073642:#dc322f:#859900:#b58900:#264ad2:#d33682:#2aa198:#eee8d5:#002b36:#fc0f27:#a850c6:#39ffbe:#10b6ff:#6c71c4:#ca4ff0:#fdf6e3"
     scrollback_infinite = True
     scrollbar_position = hidden
     show_titlebar = False
