@@ -17,6 +17,7 @@ set exrc
 set secure
 set showcmd
 set tabstop=4
+set shiftwidth=4
 set cursorline 
 set cursorcolumn
 set history=1000
@@ -33,6 +34,7 @@ set ignorecase
 set noswapfile
 set smartcase
 set smarttab
+set expandtab
 set gdefault
 set title
 set spell spelllang=en_us
@@ -51,21 +53,19 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-colorscheme-switcher'
-"Plugin 'davidhalter/jedi-vim'
-"Plugin 'scrooloose/syntastic'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'jiangmiao/auto-pairs'
 "Plugin 'Valloric/YouCompleteMe'
 "Plugin 'Rip-Rip/clang_complete'
-"Plugin 'vim-scripts/AutoComplPop'
+Plugin 'vim-scripts/AutoComplPop'
 Plugin 'ervandew/supertab'
 "Plugin 'Shougo/neocomplcache.vim'
 Plugin 'Mizuchi/STL-Syntax'
 Plugin 'scrooloose/nerdtree'
-"Plugin 'powerman/vim-plugin-viewdoc'
 "Plugin 'tpope/vim-surround' "csXX, dsX, ysMX, yssX
 Plugin 'unblevable/quick-scope' " ftFT highlighting
-"Plugin 'bling/vim-airline'
 
 
 
