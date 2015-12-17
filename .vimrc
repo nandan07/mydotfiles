@@ -92,7 +92,6 @@ noremap <F3> :NextColorScheme<CR>
 noremap <F2> :PrevColorScheme<CR>
 noremap <space> :NERDTreeToggle<CR>
 noremap <CR> i
-noremap ; :
 noremap Q :q<CR>
 noremap <tab> gt
 nnoremap <F5> :set hlsearch!<CR>
