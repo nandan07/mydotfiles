@@ -75,7 +75,8 @@ Plugin 'unblevable/quick-scope' " ftFT highlighting
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme 256-grayvim
+"colorscheme 256-grayvim
+colorscheme molokai
 set t_Co=256                                                                    " set 256 colors in vim
 inoremap jj <Esc>
 inoremap ww <Esc>:w!<CR>

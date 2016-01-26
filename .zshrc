@@ -86,7 +86,6 @@ source $ZSH/oh-my-zsh.sh
 alias gc="git commit -am"
 alias gch="git checkout"
 alias gpl="git pull"
-alias java="~/packages/java8/bin/java"
 alias gph="git push"
 alias o="xdg-open"
 alias sl="screen -list|tail -n +2 | head -n -2|cut -f2"
