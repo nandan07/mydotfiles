@@ -83,6 +83,7 @@ inoremap ww <Esc>:w!<CR>
 inoremap wq <Esc>:wq<CR>
 noremap wq :wq<CR>
 noremap ww :w<CR>
+noremap gf <c-w>gf
 
 "nnoremap <C-J> <C-W><C-J>
 nnoremap <silent> <C-e> <C-w><C-w>

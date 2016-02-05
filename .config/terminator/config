@@ -1,9 +1,10 @@
 [global_config]
   enabled_plugins = TestPlugin, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   focus = mouse
-  handle_size = 2
-  inactive_color_offset = 0.67
+  handle_size = 1
+  inactive_color_offset = 0.79
   suppress_multiple_term_dialog = True
+  title_transmit_bg_color = "#8f100a"
 [keybindings]
   broadcast_all = <Primary><Alt>a
   broadcast_off = <Primary><Alt>s
@@ -45,7 +46,7 @@
     cursor_color = "#9c9c9c"
     font = Inconsolata for Powerline Medium 14
     foreground_color = "#b0eef6"
-    palette = "#073642:#dc322f:#859900:#b58900:#264ad2:#d33682:#2aa198:#eee8d5:#002b36:#fc0f27:#a850c6:#39ffbe:#10b6ff:#6c71c4:#ca4ff0:#fdf6e3"
+    palette = "#073642:#dc322f:#859900:#b58900:#264ad2:#d33682:#2aa198:#eee8d5:#13e5ff:#fc0f27:#a850c6:#39ffbe:#10b6ff:#6c71c4:#ca4ff0:#fdf6e3"
     scrollback_infinite = True
     scrollbar_position = hidden
     show_titlebar = False
