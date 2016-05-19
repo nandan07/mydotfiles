@@ -6,15 +6,10 @@ nmap ; :
 nmap oo :o<CR>
 nmap ss :sort<CR>
 nmap W :wq<CR>
+set viewcolumns=-70%{name},15%{mtime},15%{size}
 nnoremap yd :!echo -n %d | xclip %i<cr>
 nnoremap yf :!echo -n %c:p | xclip %i<cr>
 nnoremap yn :!echo -n %c | xclip %i<cr>
 nnoremap yr :!echo -n %c:r | xclip %i<cr>
-filetype * xdg-open
-"filetype *.jpg,*.jpeg,*.png,*.gif feh %f 2>/dev/null &
-"filetype *.txt subl %f 2>/dev/null &
-"filetype *.tsv,*xlx,*.xls,*.csv libreoffice %f 2>/dev/null &
-"filetype *.mp* *.mkv  vlc %f 2>/dev/null &
-"filetype *.pdf  okular %f 2>/dev/null &
-
-
+filetype *.pdf pdf
+filetype * o

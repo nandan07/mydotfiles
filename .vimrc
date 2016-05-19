@@ -66,6 +66,11 @@ Plugin 'Mizuchi/STL-Syntax'
 Plugin 'scrooloose/nerdtree'
 "Plugin 'tpope/vim-surround' "csXX, dsX, ysMX, yssX
 Plugin 'unblevable/quick-scope' " ftFT highlighting
+Plugin 'godlygeek/tabular'
+Plugin 'Shougo/unite.vim'                       " for line , colorscheme, jump changes
+Plugin 'Shougo/neomru.vim'
+Plugin 'ujihisa/unite-colorscheme'
+Plugin 'Shougo/unite-outline'
 
 
 

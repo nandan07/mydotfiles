@@ -50,7 +50,7 @@ ZSH_THEME="powerline"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(sudo battery cp git z pygmentize colorize cp archlinux zsh-syntax-highlighting )
+plugins=(sudo battery cp git z pygmentize colorize cp archlinux zsh-syntax-highlighting history-substring-search)
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting-master/zsh-syntax-highlighting.zsh
 # User configuration
 
@@ -87,16 +87,18 @@ alias gc="git commit -am"
 alias gch="git checkout"
 alias gpl="git pull"
 alias gph="git push"
-alias o="xdg-open"
+#alias o="xdg-open"
 alias sl="screen -list|tail -n +2 | head -n -2|cut -f2"
 alias s="screen -r"
 alias st="screen -S mtp"
-alias o="xdg-open"
 alias g="g++ -g -std=c++11"
 alias uniq="sort|uniq"
 alias fm="vifm"
 alias dg="gdb ./a.out"
 alias conda="/opt/anaconda2/bin/conda"
-alias  mp3="youtube-dl --audio-format mp3  --audio-quality 0  --extract-audio "
+alias mp3="youtube-dl --audio-format mp3  --audio-quality 0  --extract-audio "
+#alias torx="~/works/TorX/download_torx.sh"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
